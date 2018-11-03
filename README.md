@@ -1,4 +1,4 @@
-# Machine-Learning-for-drugs-cytokines
+# Machine Learning for drugs-cytokine interactions
 
 These scripts are helping us to create prediction models for the interactions between drugs and cytokines.
 
