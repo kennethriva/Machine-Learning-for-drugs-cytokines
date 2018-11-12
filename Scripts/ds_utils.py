@@ -18,6 +18,8 @@ recall_score, precision_score,classification_report, roc_curve, auc, matthews_co
 import matplotlib.pyplot as plt
 
 path = os.getcwd()
+seed = 0
+#outVar = ''
 
 def DataCheckings(df):
     # CHECKINGS ***************************
@@ -56,6 +58,34 @@ def  set_weights(y_data, option='balanced'):
                                                  np.unique(y_data),
                                                  y_data)
     return cw
+
+def datasets_parser(tr_File, ts_File, outVar='label', WorkingFolder=path):
+
+
+    """Given a training and a testing dataset parse
+    them to extract data. It is supposed to be csv data"""
+
+    # read training set as dataframe
+    #print('---> Reading data:', tr_File, '...')
+    df_tr = pd.read_csv(os.path.join(WorkingFolder, tr_File))
+    X_tr = df_tr.drop(outVar, axis = 1) # remove output variable from input features
+    y_tr = df_tr[outVar]  
+
+    # read test set as dataframe
+    #print('---> Reading data:', ts_File, '...')
+    df_ts = pd.read_csv(os.path.join(WorkingFolder, ts_File))
+    X_ts = df_ts.drop(outVar, axis = 1) # remove output variable from input features
+    y_ts = df_ts[outVar]                # get only the output variable
+            
+    # get only array data for train
+    X_tr_data = X_tr.values # get values of features
+    y_tr_data = y_tr.values # get output values
+    # get only array data for test
+    X_ts_data = X_ts.values # get values of features
+    y_ts_data = y_ts.values # get output values
+
+    return (X_tr_data, y_tr_data, X_ts_data, y_ts_data)
+
 
 
 def baseline_classifiers(y_tr_data, seed=0):
@@ -104,40 +134,27 @@ def baseline_classifiers(y_tr_data, seed=0):
     return MLA_lassifiers
 
 
-def baseline_generator(listFiles_tr, listFiles_ts, outVar='target',
+def baseline_generator(listFiles_tr, listFiles_ts, outVar='label',
                         WorkingFolder=path, out_name = 'ML_baseline_generator.csv'):
 
     """"Return and create a file which contains main metrics and
     algorithms performances for a given set of train and test 
-    datasets. Make sure outputVar is the name of the label class
-    in your dataset"""
+    datasets. Make sure outputVar is the name of the label class"""
 
     print('-> Generating Basic Machine Learning baseline...')
 
-    
-    dataframes = [] # to save all dataframes
-    for f in range(len(listFiles_tr)):
-        newFile_tr = listFiles_tr[f]
-        newFile_ts = listFiles_ts[f]
-    
-        # read training set as dataframe
-        print('---> Reading data:', newFile_tr, '...')
-        df_tr = pd.read_csv(os.path.join(WorkingFolder, newFile_tr))
-        X_tr = df_tr.drop(outVar, axis = 1) # remove output variable from input features
-        y_tr = df_tr[outVar]                # get only the output variable
-            
-        # read test set as dataframe
-        print('---> Reading data:', newFile_ts, '...')
-        df_ts = pd.read_csv(os.path.join(WorkingFolder, newFile_ts))
-        X_ts = df_ts.drop(outVar, axis = 1) # remove output variable from input features
-        y_ts = df_ts[outVar]                # get only the output variable
-                
-        # get only array data for train
-        X_tr_data = X_tr.values # get values of features
-        y_tr_data = y_tr.values # get output values
-        # get only array data for test
-        X_ts_data = X_ts.values # get values of features
-        y_ts_data = y_ts.values # get output values
+    # to save all dataframes
+    dataframes = []
+
+    for tr, ts in zip(listFiles_tr, listFiles_ts):
+        
+        # Get data from training and test files
+        data = datasets_parser(tr, ts, outVar=outVar)
+
+        X_tr_data = data[0] # X training
+        y_tr_data = data[1] # y training
+        X_ts_data = data[2] # X test
+        y_ts_data = data[3] # y test
                
         # we are using scale_pos_weight for unballanced dataset!
         # for the baseline is better not to change algorithm parameters and set them as default whenever possible
@@ -150,7 +167,7 @@ def baseline_generator(listFiles_tr, listFiles_ts, outVar='target',
         for alg in baseline_classifiers(y_tr_data):
             alg.fit(X_tr_data, y_tr_data)
             y_pred = alg.predict(X_ts_data)
-            MLA_compare.loc[row_index, 'MLA_dataset'] = newFile_tr 
+            MLA_compare.loc[row_index, 'MLA_dataset'] = tr 
             MLA_name = alg.__class__.__name__
             MLA_compare.loc[row_index, 'MLA Name'] = MLA_name
             MLA_compare.loc[row_index, 'MLA Train Accuracy'] = round(alg.score(X_tr_data, y_tr_data), 4)
@@ -161,46 +178,36 @@ def baseline_generator(listFiles_tr, listFiles_ts, outVar='target',
                              sample_weight=None, labels=None)
             MLA_compare.loc[row_index, 'MLA AUC'] = roc_auc_score(y_ts_data, y_pred, average='weighted', sample_weight=None)
             MLA_compare.loc[row_index, 'MLA Matthews Coefficient'] = matthews_corrcoef(y_ts_data, y_pred)
-            
+
+
             row_index += 1
         
         dataframes.append(MLA_compare)
     
-    result = pd.concat(dataframes) # concat dataframes from diferents datasets
-    result.sort_values(by=['MLA AUC'], ascending = False, inplace = True) # sort them by AUC
+    result = pd.concat(dataframes)
+    result.sort_values(by=['MLA AUC'], ascending = False, inplace = True)
     print('---> Saving results ...')
     result.to_csv(out_name, index=False)
     print('! Please find your ML results in:', out_name)
     print('Done!')
     return result
 
-
-def ROC_plots(newFile_tr, newFile_ts, outVar='target',
-                        WorkingFolder=path, plot_name = 'ROC_baseline_generator.png'):
+def ROC_baseline_plot(newFile_tr, newFile_ts, outVar='label',
+                        WorkingFolder=path, plot_name = 'ROC_baseline_plot.png'):
 
 
     """This function is thought to be used with one dataset after having run the baseline
-    generator. The idea is to plot ROC curves for the dataset with better performances"""
+    generator. The idea is to plot ROC curves for all baseline algorithms
+    on the dataset with better performances"""
     
-    #read train set as dataframe
-    print('---> Reading data:', newFile_tr, '...')
-    df_tr = pd.read_csv(os.path.join(WorkingFolder, newFile_tr))
-    X_tr = df_tr.drop(outVar, axis = 1) # remove output variable from input features
-    y_tr = df_tr[outVar]                # get only the output variable
-        
-    # read test set as dataframe
-    print('---> Reading data:', newFile_ts, '...')
-    df_ts = pd.read_csv(os.path.join(WorkingFolder, newFile_ts))
-    X_ts = df_ts.drop(outVar, axis = 1) # remove output variable from input features
-    y_ts = df_ts[outVar]                # get only the output variable
-            
-    # get only array data for train
-    X_tr_data = X_tr.values # get values of features
-    y_tr_data = y_tr.values # get output values
-    # get only array data for test
-    X_ts_data = X_ts.values # get values of features
-    y_ts_data = y_ts.values # get output values
-               
+    # Get data from training and test files
+    data = datasets_parser(newFile_tr, newFile_ts, outVar=outVar)
+
+    X_tr_data = data[0] # X training
+    y_tr_data = data[1] # y training
+    X_ts_data = data[2] # X test
+    y_ts_data = data[3] # y test
+
     row_index= 0
         
     for alg in baseline_classifiers(y_tr_data):
@@ -215,7 +222,7 @@ def ROC_plots(newFile_tr, newFile_ts, outVar='target',
 
         row_index += 1
 
-    plt.title('ROC Curve comparison for {0} dataset'.format(newFile_tr.strip('_tr.csv')))
+    plt.title('ROC Curve comparison for {0} dataset'.format(newFile_tr.strip('_.csv')))
     plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
     plt.plot([0,1],[0,1],'r--')
     plt.xlim([0,1])
@@ -223,3 +230,101 @@ def ROC_plots(newFile_tr, newFile_ts, outVar='target',
     plt.ylabel('True Positive Rate')
     plt.xlabel('False Positive Rate') 
     plt.savefig(plot_name, bbox_inches="tight")
+    
+  def nestedCV(estimator, training_set, param_grid, scoring='roc_auc',
+                i_cv=2, o_cv=5, k_fold=StratifiedKFold):
+    
+    """Given an estimator (model) and a set of parameter to be tuned
+    nestedCV will output the best combination after the total number
+    of trials as well as a trained model based on that parameters.
+    Just the training data will be used to avoid overrealistic perfromances.
+    This output could be used to test on a real test set
+    Useful to figure out whether, say, a random forest or 
+    a SVM is better suited for our problem."""
+    
+    training_data = datasets_parser(training_set, outVar=outVar)
+
+    X_tr_data = test_data[0]
+    y_tr_data = test_data[1]
+
+    trials = i_cv * o_cv
+
+    for t in range(trials): # total number of trials 
+        # To be used within GridSearch 
+        inner_cv = k_fold(i_cv, shuffle=True, random_state=t)
+        # To be used in outer CV 
+        outer_cv = k_fold(o_cv, shuffle=True, random_state=t)
+        
+        # Non_nested parameter search and scoring
+        gs = GridSearchCV(estimator=estimator, param_grid=param_grid,
+            cv=inner_cv)
+        gs.fit(X_tr_data, y_tr_data)
+        non_nested_score = gs.best_score_
+
+        # Pass the gridSearch estimator to cross_val_score
+        # This will be your required outer_cv x inner_cv
+        nested_score = cross_val_score(gs,X_tr_data, y_tr_data,
+            cv=outer_cv, scoring=scoring, n_jobs=-1)
+    
+    print('AUC mean score for {0} {1:.3f} +/- {2:.3f}'.format(estimator.__class__.__name__, 
+        np.mean(nested_score), 
+        np.std(nested_score)))
+
+    # the grid_search.best_estimator_ contains the corss-validated fitted model
+    # with best_params_ parameters, so there is no need to refit again.
+    # Simply calling grid_search.score() or grid_search.predict() will have the same 
+    # effect. Because it will internally access best_estimator_ automatically.
+    print('Best parameters {0}'.format(gs.best_params_))
+    return gs.best_estimator_  
+
+def check_predictions_unseen_test_set(model, test_set, outVar='label',n_metrics=7, out_name='unseen_results.csv',
+                                     target_names = ['class 0', 'class 1']):
+    
+    """Check performances of gridsearch evaluation on test set.
+    The output will write a file which contains main metrics evaluated on the
+    test set. This funciton is supposed to be used with output generated by
+    nestedCV() from above"""
+
+    
+    
+    test_data = datasets_parser(test_set, outVar=outVar)
+
+    X_ts_data = test_data[2]
+    y_ts_data = test_data[3]
+
+
+
+    y_pred = model.predict(X_ts_data) 
+    target_names = target_names
+    report = classification_report(y_ts_data, y_pred, target_names=target_names)
+    # print the classification report
+    print(report)
+    ML_test_performances = pd.DataFrame() 
+    n_metrics = n_metrics
+    
+    row_index= 0
+        
+    for i in range(n_metrics):
+            
+        ML_test_performances.loc[row_index, 'ML_test_set'] = test_set.strip('_.csv') 
+        ML_test_performances.loc[row_index, 'ML Test Accuracy'] = round(alg.score(X_ts_data, y_ts_data), 4)
+        ML_test_performances.loc[row_index, 'ML Precission'] = str(precision_score(y_ts_data, y_pred, average=None)) 
+        ML_test_performances.loc[row_index, 'ML Recall'] = str(recall_score(y_ts_data, y_pred, average=None))
+        ML_test_performances.loc[row_index, 'ML F1_score']  = f1_score(y_ts_data, y_pred, pos_label=1, average="binary",
+                         sample_weight=None, labels=None) 
+
+        ML_test_performances.loc[row_index, 'MLA AUC'] = roc_auc_score(y_ts_data, y_pred, average='weighted', sample_weight=None)
+        ML_test_performances.loc[row_index, 'MLA Matthews Coefficient'] = matthews_corrcoef(y_ts_data, y_pred)
+
+
+        row_index += 1
+
+    ML_test_performances.sort_values(by=['MLA AUC'], ascending = False, inplace = True)
+    print('---> Saving results ...')
+    result.to_csv(out_name, index=False)
+    print('! Please find your unseen results in:', out_name)
+    print('Done!')
+    return ML_test_performances
+
+if __name__ == "__main__":
+    
