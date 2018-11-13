@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 
 path = os.getcwd()
 seed = 0
-#outVar = ''
+outVar = 'Lij'
 
 def DataCheckings(df):
     # CHECKINGS ***************************
@@ -59,7 +59,7 @@ def  set_weights(y_data, option='balanced'):
                                                  y_data)
     return cw
 
-def datasets_parser(tr_File, ts_File, outVar='label', WorkingFolder=path):
+def datasets_parser(tr_File, ts_File, outVar=outVar, WorkingFolder=path):
 
 
     """Given a training and a testing dataset parse
@@ -109,7 +109,7 @@ def baseline_classifiers(y_tr_data, seed=0):
             
             KNeighborsClassifier(5),
             LinearSVC(class_weight={0: w0, 1: w1}, random_state=seed, max_iter=5000),
-            LogisticRegression(random_state=seed, class_weight={0: w0, 1: w1}, solver='lbfgs'),
+            LogisticRegression(random_state=seed, class_weight={0: w0, 1: w1}, solver='lbfgs', max_iter=500),
             # playing with these parameters for this small dataset, may be change for the large dataset
             # https://stats.stackexchange.com/questions/125353/output-of-scikit-svm-in-multiclass-classification-always-gives-same-label
             # parameters which get some predicte values are gamma = 1e-2, C=10
@@ -118,7 +118,7 @@ def baseline_classifiers(y_tr_data, seed=0):
             GaussianNB(),
             # MLP for small datasets use lbfgs solver which converge faster and get better perfomances. We can
             # predict some minority labels by using this solver.
-            MLPClassifier(hidden_layer_sizes= (100,), random_state = seed,max_iter=1500),
+            MLPClassifier(hidden_layer_sizes= (20,), random_state = seed,max_iter=1500),
             DecisionTreeClassifier(random_state = seed, class_weight={0: w0, 1: w1}),
             RandomForestClassifier(n_estimators = 100, random_state = seed, class_weight={0: w0, 1: w1}, n_jobs=-1),
             GradientBoostingClassifier(random_state=seed),
@@ -134,7 +134,7 @@ def baseline_classifiers(y_tr_data, seed=0):
     return MLA_lassifiers
 
 
-def baseline_generator(listFiles_tr, listFiles_ts, outVar='label',
+def baseline_generator(listFiles_tr, listFiles_ts, outVar=outvar,
                         WorkingFolder=path, out_name = 'ML_baseline_generator.csv'):
 
     """"Return and create a file which contains main metrics and
@@ -168,8 +168,7 @@ def baseline_generator(listFiles_tr, listFiles_ts, outVar='label',
             alg.fit(X_tr_data, y_tr_data)
             y_pred = alg.predict(X_ts_data)
             MLA_compare.loc[row_index, 'MLA_dataset'] = tr 
-            MLA_name = alg.__class__.__name__
-            MLA_compare.loc[row_index, 'MLA Name'] = MLA_name
+            MLA_compare.loc[row_index, 'MLA Name'] = alg.__class__.__name__
             MLA_compare.loc[row_index, 'MLA Train Accuracy'] = round(alg.score(X_tr_data, y_tr_data), 4)
             MLA_compare.loc[row_index, 'MLA Test Accuracy'] = round(alg.score(X_ts_data, y_ts_data), 4)
             MLA_compare.loc[row_index, 'MLA Precission'] = str(precision_score(y_ts_data, y_pred, average=None)) 
@@ -192,7 +191,7 @@ def baseline_generator(listFiles_tr, listFiles_ts, outVar='label',
     print('Done!')
     return result
 
-def ROC_baseline_plot(newFile_tr, newFile_ts, outVar='label',
+def ROC_baseline_plot(newFile_tr, newFile_ts, outVar=outvar,
                         WorkingFolder=path, plot_name = 'ROC_baseline_plot.png'):
 
 
@@ -231,21 +230,16 @@ def ROC_baseline_plot(newFile_tr, newFile_ts, outVar='label',
     plt.xlabel('False Positive Rate') 
     plt.savefig(plot_name, bbox_inches="tight")
     
-  def nestedCV(estimator, training_set, param_grid, scoring='roc_auc',
+def nestedCV(estimator, X_tr_data, y_tr_data, param_grid, scoring='roc_auc',
                 i_cv=2, o_cv=5, k_fold=StratifiedKFold):
     
     """Given an estimator (model) and a set of parameter to be tuned
     nestedCV will output the best combination after the total number
-    of trials as well as a trained model based on that parameters.
+    of trials as well as a trained model based on that parameters
     Just the training data will be used to avoid overrealistic perfromances.
     This output could be used to test on a real test set
     Useful to figure out whether, say, a random forest or 
     a SVM is better suited for our problem."""
-    
-    training_data = datasets_parser(training_set, outVar=outVar)
-
-    X_tr_data = test_data[0]
-    y_tr_data = test_data[1]
 
     trials = i_cv * o_cv
 
@@ -266,6 +260,7 @@ def ROC_baseline_plot(newFile_tr, newFile_ts, outVar='label',
         nested_score = cross_val_score(gs,X_tr_data, y_tr_data,
             cv=outer_cv, scoring=scoring, n_jobs=-1)
     
+    # tratar de escribir esto mejor en un ficherito 
     print('AUC mean score for {0} {1:.3f} +/- {2:.3f}'.format(estimator.__class__.__name__, 
         np.mean(nested_score), 
         np.std(nested_score)))
@@ -275,39 +270,35 @@ def ROC_baseline_plot(newFile_tr, newFile_ts, outVar='label',
     # Simply calling grid_search.score() or grid_search.predict() will have the same 
     # effect. Because it will internally access best_estimator_ automatically.
     print('Best parameters {0}'.format(gs.best_params_))
-    return gs.best_estimator_  
+    return gs.best_estimator_
 
-def check_predictions_unseen_test_set(model, test_set, outVar='label',n_metrics=7, out_name='unseen_results.csv',
-                                     target_names = ['class 0', 'class 1']):
-    
-    """Check performances of gridsearch evaluation on test set.
-    The output will write a file which contains main metrics evaluated on the
-    test set. This funciton is supposed to be used with output generated by
-    nestedCV() from above"""
+def check_predictions_unseen_test_set(list_optimized_models, X_ts_data,y_ts_data, test_name='test_set.csv',
+                                        out_name='unseen_results.csv',
+                                        target_names = ['class 0', 'class 1']):
 
-    
-    
-    test_data = datasets_parser(test_set, outVar=outVar)
+    """This function can be used for a list of optimized algorithm 
+    obtained from the nestedCV function"""
 
-    X_ts_data = test_data[2]
-    y_ts_data = test_data[3]
+    dataframes = []
 
-
-
-    y_pred = model.predict(X_ts_data) 
-    target_names = target_names
-    report = classification_report(y_ts_data, y_pred, target_names=target_names)
-    # print the classification report
-    print(report)
+    # dataframe to save results
     ML_test_performances = pd.DataFrame() 
-    n_metrics = n_metrics
     
     row_index= 0
+
+    
+    for optimized_algorithm in list_optimized_models:
+
+        y_pred = optimized_algorithm.predict(X_ts_data)
+
+        # classification report, print it just to have something to look at while running. Main metrics
+        # will be saved in the dataframe as well
+        report = classification_report(y_ts_data, y_pred, target_names=target_names)
+        print('Classification report for {0} model \n{1}'.format(optimized_algorithm.__class__.__name__, report))
         
-    for i in range(n_metrics):
-            
-        ML_test_performances.loc[row_index, 'ML_test_set'] = test_set.strip('_.csv') 
-        ML_test_performances.loc[row_index, 'ML Test Accuracy'] = round(alg.score(X_ts_data, y_ts_data), 4)
+        ML_test_performances.loc[row_index, 'ML_test_set'] = test_name.strip('_.csv')
+        ML_test_performances.loc[row_index, 'ML name'] =  optimized_algorithm.__class__.__name__
+        ML_test_performances.loc[row_index, 'ML Test Accuracy'] = round(optimized_algorithm.score(X_ts_data, y_ts_data), 4)
         ML_test_performances.loc[row_index, 'ML Precission'] = str(precision_score(y_ts_data, y_pred, average=None)) 
         ML_test_performances.loc[row_index, 'ML Recall'] = str(recall_score(y_ts_data, y_pred, average=None))
         ML_test_performances.loc[row_index, 'ML F1_score']  = f1_score(y_ts_data, y_pred, pos_label=1, average="binary",
@@ -316,15 +307,18 @@ def check_predictions_unseen_test_set(model, test_set, outVar='label',n_metrics=
         ML_test_performances.loc[row_index, 'MLA AUC'] = roc_auc_score(y_ts_data, y_pred, average='weighted', sample_weight=None)
         ML_test_performances.loc[row_index, 'MLA Matthews Coefficient'] = matthews_corrcoef(y_ts_data, y_pred)
 
-
         row_index += 1
 
-    ML_test_performances.sort_values(by=['MLA AUC'], ascending = False, inplace = True)
+    dataframes.append(ML_test_performances)
+
+
+    result = pd.concat(dataframes)
+    result.sort_values(by=['MLA AUC'], ascending = False, inplace = True)
     print('---> Saving results ...')
     result.to_csv(out_name, index=False)
     print('! Please find your unseen results in:', out_name)
     print('Done!')
-    return ML_test_performances
+    return result
 
 if __name__ == "__main__":
     
