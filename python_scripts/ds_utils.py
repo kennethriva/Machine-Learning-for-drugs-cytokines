@@ -117,7 +117,7 @@ def baseline_classifiers(y_tr_data, seed=0):
             GaussianNB(),
             # MLP for small datasets use lbfgs solver which converge faster and get better perfomances. We can
             # predict some minority labels by using this solver.
-            MLPClassifier(hidden_layer_sizes= (20,), random_state = seed,max_iter=1500),
+            MLPClassifier(hidden_layer_sizes= (20,), random_state = seed,max_iter=1500, shuffle=False),
             DecisionTreeClassifier(random_state = seed, class_weight=class_weights),
             RandomForestClassifier(n_estimators = 100, random_state = seed, class_weight=class_weights, n_jobs=-1),
             GradientBoostingClassifier(random_state=seed),
