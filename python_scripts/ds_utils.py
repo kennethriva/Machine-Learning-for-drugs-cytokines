@@ -54,10 +54,12 @@ def  set_weights(y_data, option='balanced'):
        If ‘balanced’, class weights will be given by n_samples / (n_classes * np.bincount(y)). 
        If a dictionary is given, keys are classes and values are corresponding class weights. 
        If None is given, the class weights will be uniform """
-    cw = class_weight.compute_class_weight(option,
-                                                 np.unique(y_data),
-                                                 y_data)
-    return cw
+  
+    cw = class_weight.compute_class_weight(option, np.unique(y_data), y_data)
+
+    w = {i:j for i,j in zip(np.unique(y_data), cw)}
+
+    return w 
 
 def datasets_parser(tr_File, ts_File, outVar=outVar, WorkingFolder=path):
 
@@ -96,11 +98,8 @@ def baseline_classifiers(y_tr_data, seed=0):
 
 # compute the class_weight for the umbalanced dataset
     class_weights = set_weights(y_tr_data)
-    w0 = class_weights[0]
-    w1 = class_weights[1]
+ 
     print('class weights', class_weights)
-
-    print('Ratio 0/1', w0, ':', w1)
     
     print('**************************************')
 
@@ -108,25 +107,25 @@ def baseline_classifiers(y_tr_data, seed=0):
     MLA_lassifiers = [
             
             KNeighborsClassifier(5),
-            LinearSVC(class_weight={0: w0, 1: w1}, random_state=seed, max_iter=5000),
-            LogisticRegression(random_state=seed, class_weight={0: w0, 1: w1}, solver='lbfgs', max_iter=500),
+            LinearSVC(class_weight=class_weights, random_state=seed, max_iter=5000),
+            LogisticRegression(random_state=seed, class_weight=class_weights, solver='lbfgs', max_iter=500),
             # playing with these parameters for this small dataset, may be change for the large dataset
             # https://stats.stackexchange.com/questions/125353/output-of-scikit-svm-in-multiclass-classification-always-gives-same-label
             # parameters which get some predicte values are gamma = 1e-2, C=10
-            SVC(kernel = 'rbf', gamma= 'scale', probability=True,  class_weight={0: w0, 1: w1}, random_state=seed),
+            SVC(kernel = 'rbf', gamma= 'scale', probability=True,  class_weight=class_weights, random_state=seed),
             AdaBoostClassifier(random_state = seed),
             GaussianNB(),
             # MLP for small datasets use lbfgs solver which converge faster and get better perfomances. We can
             # predict some minority labels by using this solver.
             MLPClassifier(hidden_layer_sizes= (20,), random_state = seed,max_iter=1500),
-            DecisionTreeClassifier(random_state = seed, class_weight={0: w0, 1: w1}),
-            RandomForestClassifier(n_estimators = 100, random_state = seed, class_weight={0: w0, 1: w1}, n_jobs=-1),
+            DecisionTreeClassifier(random_state = seed, class_weight=class_weights),
+            RandomForestClassifier(n_estimators = 100, random_state = seed, class_weight=class_weights, n_jobs=-1),
             GradientBoostingClassifier(random_state=seed),
             BaggingClassifier(random_state=seed),
             # For the moment XGB is not predicting anything with this dataset, maybe with the real one suits better.
             XGBClassifier(objective='binary:logistic', gamma=0.1, learning_rate=0.1, max_depth=6,subsample=0.6,
                             colsample_bytree=0.6, n_estimators=100,  n_jobs=-1, 
-                          scale_pos_weight= int(w0/w1), # ratio weights negative / positive class
+                          scale_pos_weight= int(class_weights[0]/class_weights[1]), # ratio weights negative / positive class
                           seed=seed)
 
                     ]
@@ -272,12 +271,69 @@ def nestedCV(estimator, X_tr_data, y_tr_data, param_grid, scoring='roc_auc',
     print('Best parameters {0}'.format(gs.best_params_))
     return gs.best_estimator_
 
-def check_predictions_unseen_test_set(list_optimized_models, X_ts_data,y_ts_data, test_name='test_set.csv',
-                                        out_name='unseen_results.csv',
+
+def gridsearchCV_strategy(X_tr_data, y_tr_data, list_estimators, list_params):
+    
+    """
+    
+    len of list_estimators and list_params should be the same. For any
+    estimator you need a list of parameters to optimize. Eg
+    list_estimators = [RandomForestClassifier(),
+                        LogisticRegression()]
+    list_params = [{'n_estimators': [500,1000],
+    'max_features': [8,10],
+    'max_depth' : [4,6,8],
+    'criterion' :['gini', 'entropy']},'C': [100, 1000], 'solver' : ['lbfgs'],
+                                        'max_iter' : [1000, 2000], 'n_jobs' : [-1]
+                                        }]                    
+    """
+    # First check if both lists has the same length
+    
+    if len(list_estimators) != len(list_params):
+        
+        raise ValueError("list_estimators and list_params must have the same length")
+    
+    
+    
+    # Estimate weights in the data used to look for parameters
+
+    class_weights = set_weights(y_tr_data)
+    
+    
+    # iterate through the list of estimators to see if any of them has some parameters such as random_state or
+    # class_weight or n_jobs, if so we will set them to the chosen seed for the running task and the weights estimated
+    # into this function which will be the ones obtained from the training data used.
+    
+    
+    for est in list_estimators:
+        est_params = est.get_params()
+        if 'class_weight' in est_params:
+            est.set_params(class_weight = class_weights)
+        if 'n_jobs' in est_params:
+            est.set_params(n_jobs = -1)
+        if 'random_state' in est_params:
+            est.set_params(random_state = seed)
+
+    
+    dict_estimators_to_optimize = {}
+    
+    for estimator, parameters in zip(list_estimators, list_params):
+        dict_estimators_to_optimize[estimator] = parameters
+    
+    
+    list_optimized_models = [nestedCV(estimator, X_tr_data, y_tr_data, param_grid=parameters) 
+                                    for estimator, parameters  in dict_estimators_to_optimize.items()]
+    
+    return list_optimized_models
+
+
+
+def check_predictions_unseen_test_set(list_optimized_models, X_ts_data,y_ts_data, dataset_name='test_set.csv',
+                                        plot_name= 'ROC_test_plot.png', out_name='unseen_results.csv',
                                         target_names = ['class 0', 'class 1']):
 
-    """This function can be used for a list of optimized algorithm 
-    obtained from the nestedCV function"""
+    """This function can be used with a list of optimized models 
+    obtained from the gridsearchCV_strategy function"""
 
     dataframes = []
 
@@ -292,11 +348,11 @@ def check_predictions_unseen_test_set(list_optimized_models, X_ts_data,y_ts_data
         y_pred = optimized_algorithm.predict(X_ts_data)
 
         # classification report, print it just to have something to look at while running. Main metrics
-        # will be saved in the dataframe as well
+        # will be saved in the dataframe as well.
         report = classification_report(y_ts_data, y_pred, target_names=target_names)
         print('Classification report for {0} model \n{1}'.format(optimized_algorithm.__class__.__name__, report))
         
-        ML_test_performances.loc[row_index, 'ML_test_set'] = test_name.strip('_.csv')
+        ML_test_performances.loc[row_index, 'ML_test_set'] = dataset_name.strip('_.csv')
         ML_test_performances.loc[row_index, 'ML name'] =  optimized_algorithm.__class__.__name__
         ML_test_performances.loc[row_index, 'ML Test Accuracy'] = round(optimized_algorithm.score(X_ts_data, y_ts_data), 4)
         ML_test_performances.loc[row_index, 'ML Precission'] = str(precision_score(y_ts_data, y_pred, average=None)) 
@@ -307,8 +363,26 @@ def check_predictions_unseen_test_set(list_optimized_models, X_ts_data,y_ts_data
         ML_test_performances.loc[row_index, 'MLA AUC'] = roc_auc_score(y_ts_data, y_pred, average='weighted', sample_weight=None)
         ML_test_performances.loc[row_index, 'MLA Matthews Coefficient'] = matthews_corrcoef(y_ts_data, y_pred)
 
+        # to plot roc curve
+        fp, tp, th = roc_curve(y_ts_data, y_pred)
+        roc_auc_mla = auc(fp, tp)
+
+        MLA_name = optimized_algorithm.__class__.__name__
+        plt.plot(fp, tp, lw=2, alpha=0.3, label='ROC {0} (AUC = {1:.2f})'.format(MLA_name, roc_auc_mla))
+        
+        
         row_index += 1
 
+    
+    plt.title('ROC Curve comparison for {0} dataset'.format(dataset_name.strip('_.csv')))
+    plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
+    plt.plot([0,1],[0,1],'r--')
+    plt.xlim([0,1])
+    plt.ylim([0,1])
+    plt.ylabel('True Positive Rate')
+    plt.xlabel('False Positive Rate') 
+    plt.savefig(plot_name, bbox_inches="tight")
+    
     dataframes.append(ML_test_performances)
 
 
