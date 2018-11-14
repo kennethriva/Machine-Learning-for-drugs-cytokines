@@ -12,7 +12,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.naive_bayes import BernoulliNB, GaussianNB
 from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis
 from xgboost import XGBClassifier
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, StratifiedKFold
 from sklearn.metrics import confusion_matrix,accuracy_score, roc_auc_score, f1_score, \
 recall_score, precision_score,classification_report, roc_curve, auc, matthews_corrcoef
 import matplotlib.pyplot as plt
@@ -133,7 +133,7 @@ def baseline_classifiers(y_tr_data, seed=0):
     return MLA_lassifiers
 
 
-def baseline_generator(listFiles_tr, listFiles_ts, outVar=outvar,
+def baseline_generator(listFiles_tr, listFiles_ts, outVar=outVar,
                         WorkingFolder=path, out_name = 'ML_baseline_generator.csv'):
 
     """"Return and create a file which contains main metrics and
@@ -190,7 +190,7 @@ def baseline_generator(listFiles_tr, listFiles_ts, outVar=outvar,
     print('Done!')
     return result
 
-def ROC_baseline_plot(newFile_tr, newFile_ts, outVar=outvar,
+def ROC_baseline_plot(newFile_tr, newFile_ts, outVar=outVar,
                         WorkingFolder=path, plot_name = 'ROC_baseline_plot.png'):
 
 
