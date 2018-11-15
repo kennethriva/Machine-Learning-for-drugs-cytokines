@@ -146,7 +146,7 @@ def baseline_generator(listFiles_tr, listFiles_ts, outVar=outVarDef,
     dataframes = []
 
     for tr, ts in zip(listFiles_tr, listFiles_ts):
-        print('-> Dataset:', WorkingFolder, tr, '...')
+        print('\n-> Dataset:', WorkingFolder, tr, '...')
         
         # Get data from training and test files
 		
@@ -187,7 +187,7 @@ def baseline_generator(listFiles_tr, listFiles_ts, outVar=outVarDef,
         dataframes.append(MLA_compare)
     
     result = pd.concat(dataframes)
-    result.sort_values(by=['MLA AUC'], ascending = False, inplace = True)
+    result.sort_values(by=['MLA Test AUC'], ascending = False, inplace = True)
     print('---> Saving results ...')
     result.to_csv(out_name, index=False)
     print('! Please find your ML results in:', out_name)
