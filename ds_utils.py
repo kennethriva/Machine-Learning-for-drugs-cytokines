@@ -2,6 +2,7 @@ import pandas as pd
 from sklearn.utils import class_weight
 import os
 import numpy as np
+from time import time
 from sklearn.neural_network import MLPClassifier
 from sklearn.ensemble import GradientBoostingClassifier, BaggingClassifier, AdaBoostClassifier, RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
@@ -263,7 +264,6 @@ def nestedCV(estimator, X_tr_data, y_tr_data, param_grid, scoring='roc_auc',
         nested_score = cross_val_score(gs,X_tr_data, y_tr_data,
             cv=outer_cv, scoring=scoring, n_jobs=-1)
     
-    # tratar de escribir esto mejor en un ficherito 
     print('AUC mean score for {0} {1:.3f} +/- {2:.3f}'.format(estimator.__class__.__name__, 
         np.mean(nested_score), 
         np.std(nested_score)))
@@ -330,6 +330,78 @@ def gridsearchCV_strategy(X_tr_data, y_tr_data, list_estimators, list_params):
     
     return list_optimized_models
 
+def best_fitted_gridsearchCV(X_tr_data, y_tr_data, list_estimators, list_params, verbosity=5,
+			    scoring = 'roc_auc'):
+    
+    """
+    
+    len of list_estimators and list_params should be the same. For any
+    estimator you need a list of parameters to optimize. E.g:
+    list_estimators = [RandomForestClassifier(),
+                        LogisticRegression()]
+    list_params = [{'n_estimators': [500,1000],
+    'max_features': [8,10],
+    'max_depth' : [4,6,8],
+    'criterion' :['gini', 'entropy']},'C': [100, 1000], 'solver' : ['lbfgs'],
+                                        'max_iter' : [1000, 2000], 'n_jobs' : [-1]
+                                        }]
+
+    verbosity parameter in this function controls the information printed during the process.                                                        
+    """
+    # First check if both lists has the same length
+    
+    if len(list_estimators) != len(list_params):
+        
+        raise ValueError("list_estimators and list_params must have the same length")
+    
+    
+    
+    # Estimate weights in the data used to look for parameters
+
+    class_weights = set_weights(y_tr_data)
+    
+    
+    # iterate through the list of estimators to see if any of them has some parameters such as random_state or
+    # class_weight or n_jobs, if so, we will set them to the chosen seed for the running task and the weights estimated
+    # into this function which will be the ones obtained from the training data used.
+    
+    
+    for est in list_estimators:
+        est_params = est.get_params()
+        if 'class_weight' in est_params:
+            est.set_params(class_weight = class_weights)
+        if 'n_jobs' in est_params:
+            est.set_params(n_jobs = -1)
+        if 'random_state' in est_params:
+            est.set_params(random_state = seed)
+
+    # create a dictionary which will keep out models and parameters to optimize
+    dict_estimators_to_optimize = {}
+    
+    for estimator, parameters in zip(list_estimators, list_params):
+        dict_estimators_to_optimize[estimator] = parameters
+
+    best_fitted_estimators = []
+    
+    for estimator, parameters in dict_estimators_to_optimize.items():
+        gs = GridSearchCV(estimator=estimator, param_grid=parameters,
+                            cv=StratifiedKFold(n_splits=3, shuffle=True, 
+                                      random_state=seed),verbose=verbosity,scoring= scoring,
+                                      ) # cv by default is 3 and k_fold=StratifiedKFold if it is
+                                        # an binary or multiclass problem
+        start = time()
+        gs.fit(X_tr_data, y_tr_data) # fit gridsearchCV
+        gs_score = gs.best_score_
+
+        print('GridSearchCV took {0:.2f} seconds looking for best combination in {1}'.format(time() - start, 
+											     estimator.__class__.__name__ ))
+        print('AUC mean score for {0} {1:.3f} +/- {2:.3f}: '.format(estimator.__class__.__name__, 
+        gs.cv_results_['mean_test_score'][gs.best_index_],gs.cv_results_['std_test_score'][gs.best_index_]))
+    
+        print('Best parameters {0}'.format(gs.best_params_))
+        best_fitted_estimators.append(gs.best_estimator_) # add to list each fitted model 
+    
+    return best_fitted_estimators
 
 
 def check_predictions_unseen_test_set(list_optimized_models, X_ts_data,y_ts_data, dataset_name='test_set.csv',
@@ -337,7 +409,7 @@ def check_predictions_unseen_test_set(list_optimized_models, X_ts_data,y_ts_data
                                         target_names = ['class 0', 'class 1']):
 
     """This function can be used with a list of optimized models 
-    obtained from the gridsearchCV_strategy function"""
+    obtained from the best_fitted_gridsearchCV function"""
 
     dataframes = []
 
