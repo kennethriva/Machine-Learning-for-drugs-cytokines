@@ -12,11 +12,11 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.naive_bayes import BernoulliNB, GaussianNB
 from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis
 from xgboost import XGBClassifier
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, GridSearchCV, cross_val_score, KFold, StratifiedKFold
 from sklearn.metrics import confusion_matrix,accuracy_score, roc_auc_score, f1_score, \
      recall_score, precision_score,classification_report, roc_curve, auc, matthews_corrcoef
 import matplotlib.pyplot as plt
-from sklearn.model_selection import StratifiedKFold
+
 
 pathDef = os.getcwd()
 seed = 0
