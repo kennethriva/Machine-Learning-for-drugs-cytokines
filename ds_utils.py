@@ -330,7 +330,7 @@ def gridsearchCV_strategy(X_tr_data, y_tr_data, list_estimators, list_params):
     
     return list_optimized_models
 
-def best_fitted_gridsearchCV(X_tr_data, y_tr_data, list_estimators, list_params, verbosity=5, cv_grid=3
+def best_fitted_gridsearchCV(X_tr_data, y_tr_data, list_estimators, list_params, verbosity=5, cv_grid=3,
 			    scoring = 'roc_auc'):
     
     """
