@@ -330,7 +330,7 @@ def gridsearchCV_strategy(X_tr_data, y_tr_data, list_estimators, list_params):
     
     return list_optimized_models
 
-def best_fitted_gridsearchCV(X_tr_data, y_tr_data, list_estimators, list_params, verbosity=5,
+def best_fitted_gridsearchCV(X_tr_data, y_tr_data, list_estimators, list_params, verbosity=5, cv_grid=3
 			    scoring = 'roc_auc'):
     
     """
@@ -385,7 +385,7 @@ def best_fitted_gridsearchCV(X_tr_data, y_tr_data, list_estimators, list_params,
     
     for estimator, parameters in dict_estimators_to_optimize.items():
         gs = GridSearchCV(estimator=estimator, param_grid=parameters,
-                            cv=StratifiedKFold(n_splits=3, shuffle=True, 
+                            cv=StratifiedKFold(n_splits=cv_grid, shuffle=True, 
                                       random_state=seed),verbose=verbosity,scoring= scoring,
                                       ) # cv by default is 3 and k_fold=StratifiedKFold if it is
                                         # an binary or multiclass problem
