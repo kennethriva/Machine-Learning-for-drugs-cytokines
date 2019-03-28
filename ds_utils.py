@@ -18,6 +18,7 @@ from sklearn.metrics import confusion_matrix,accuracy_score, roc_auc_score, f1_s
      recall_score, precision_score,classification_report, roc_curve, auc, matthews_corrcoef
 import matplotlib.pyplot as plt
 
+from sklearn.externals import joblib
 
 pathDef = os.getcwd()
 seed = 0
@@ -109,8 +110,8 @@ def baseline_classifiers(y_tr_data, seed=0):
     MLA_lassifiers = [
             
             KNeighborsClassifier(5),
-            LinearSVC(class_weight=class_weights, random_state=seed, max_iter=5000),
-            LogisticRegression(random_state=seed, class_weight=class_weights, solver='lbfgs', max_iter=500),
+            LinearSVC(class_weight=class_weights, random_state=seed, max_iter=20000),
+            LogisticRegression(random_state=seed, class_weight=class_weights, solver='lbfgs', max_iter=10000),
             # playing with these parameters for this small dataset, may be change for the large dataset
             # https://stats.stackexchange.com/questions/125353/output-of-scikit-svm-in-multiclass-classification-always-gives-same-label
             # parameters which get some predicte values are gamma = 1e-2, C=10
@@ -119,7 +120,7 @@ def baseline_classifiers(y_tr_data, seed=0):
             GaussianNB(),
             # MLP for small datasets use lbfgs solver which converge faster and get better perfomances. We can
             # predict some minority labels by using this solver.
-            MLPClassifier(hidden_layer_sizes= (20,), random_state = seed, max_iter=1500, shuffle=False),
+            MLPClassifier(hidden_layer_sizes= (20,), random_state = seed, max_iter=5000, shuffle=False),
             DecisionTreeClassifier(random_state = seed, class_weight=class_weights),
             RandomForestClassifier(n_estimators = 100, random_state = seed, class_weight=class_weights, n_jobs=-1),
             GradientBoostingClassifier(random_state=seed),
@@ -330,7 +331,7 @@ def gridsearchCV_strategy(X_tr_data, y_tr_data, list_estimators, list_params):
     
     return list_optimized_models
 
-def best_fitted_gridsearchCV(X_tr_data, y_tr_data, list_estimators, list_params, verbosity=5, cv_grid=3,
+def best_fitted_gridsearchCV(X_tr_data, y_tr_data, list_estimators, list_params, verbosity=5, cv_grid=5,
 			    scoring = 'roc_auc'):
     
     """
@@ -399,13 +400,18 @@ def best_fitted_gridsearchCV(X_tr_data, y_tr_data, list_estimators, list_params,
         gs.cv_results_['mean_test_score'][gs.best_index_],gs.cv_results_['std_test_score'][gs.best_index_]))
     
         print('Best parameters {0}'.format(gs.best_params_))
-        best_fitted_estimators.append(gs.best_estimator_) # add to list each fitted model 
+        best_fitted_estimators.append(gs.best_estimator_) # add to list each fitted model
+
+        # save the best model!
+        filename = 'best_'+str(estimator.__class__.__name__)+'.sav'
+        joblib.dump(gs.best_estimator_, filename)
+
     
     return best_fitted_estimators
 
 
 def check_predictions_unseen_test_set(list_optimized_models, X_ts_data,y_ts_data, dataset_name='test_set.csv',
-                                        plot_name= 'ROC_test_plot.png', out_name='unseen_results.csv',
+                                        plot_name= 'ROC_test_plot.png', out_name='results.csv',
                                         target_names = ['class 0', 'class 1']):
 
     """This function can be used with a list of optimized models 
@@ -444,20 +450,20 @@ def check_predictions_unseen_test_set(list_optimized_models, X_ts_data,y_ts_data
         roc_auc_mla = auc(fp, tp)
 
         MLA_name = optimized_algorithm.__class__.__name__
-        plt.plot(fp, tp, lw=2, alpha=0.3, label='ROC {0} (AUC = {1:.2f})'.format(MLA_name, roc_auc_mla))
+        #plt.plot(fp, tp, lw=2, alpha=0.3, label='ROC {0} (AUC = {1:.2f})'.format(MLA_name, roc_auc_mla))
         
         
         row_index += 1
 
     
-    plt.title('ROC Curve comparison for {0} dataset'.format(dataset_name.strip('_.csv')))
-    plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
-    plt.plot([0,1],[0,1],'r--')
-    plt.xlim([0,1])
-    plt.ylim([0,1])
-    plt.ylabel('True Positive Rate')
-    plt.xlabel('False Positive Rate') 
-    plt.savefig(plot_name, bbox_inches="tight")
+##    plt.title('ROC Curve comparison for {0} dataset'.format(dataset_name.strip('_.csv')))
+##    plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
+##    plt.plot([0,1],[0,1],'r--')
+##    plt.xlim([0,1])
+##    plt.ylim([0,1])
+##    plt.ylabel('True Positive Rate')
+##    plt.xlabel('False Positive Rate') 
+##    plt.savefig(plot_name, bbox_inches="tight")
     
     dataframes.append(ML_test_performances)
 

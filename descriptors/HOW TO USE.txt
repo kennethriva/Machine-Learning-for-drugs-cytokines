@@ -1,0 +1,8 @@
+You can use RcpiDescCalc.R to calculate drug descriptors for SMILES formulas.
+You need:
+- place the list of SMILES into smi/chembl_can-1.txt (one SMILES each row, no other column! keep the empty line at the end of the file)
+- run the script to produce one file with descriptors for each SMILES in Rcpi folder
+- get all these results in only one file running getRcpiResults.py (python script)
+
+Have fun!
+C

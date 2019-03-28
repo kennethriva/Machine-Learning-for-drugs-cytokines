@@ -1,0 +1,1385 @@
+STANDARD_TYPE_UNITSj,ASSAY_CHEMBLID,ASSAY_TYPE,ASSAY_ORGANISM,ORGANISM,TARGET_CHEMBLID
+Inhibition (%),CHEMBL819807,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+Inhibition (%),CHEMBL819808,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+Inhibition (%),CHEMBL818993,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL818992,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL769660,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL769659,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL757001,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL757000,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL816169,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL878781,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL769663,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL766379,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL842730,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL737142,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL732614,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL732613,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL737141,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL697600,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL860433,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL860432,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL878982,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL817156,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL756826,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL699338,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL732612,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL811494,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL818991,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL873881,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL698857,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL733706,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL814991,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL811493,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL818994,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL809568,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL702150,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL825129,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+EC50 (nM),CHEMBL807825,F,Homo sapiens,Homo sapiens,CHEMBL2094115
+Inhibition (%),CHEMBL1218231,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+Inhibition (%),CHEMBL3135712,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+Inhibition (%),CHEMBL3135985,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+Inhibition (%),CHEMBL1924058,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+Inhibition (%),CHEMBL3136478,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+Inhibition (%),CHEMBL873166,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+Inhibition (%),CHEMBL1287074,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+Inhibition (%),CHEMBL3136372,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+Inhibition (%),CHEMBL2423569,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+Inhibition (%),CHEMBL3136915,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+Inhibition (%),CHEMBL3136889,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+Inhibition (%),CHEMBL3137136,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+Inhibition (%),CHEMBL3135616,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+Inhibition (%),CHEMBL3137172,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+Inhibition (%),CHEMBL3136997,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+Inhibition (%),CHEMBL3135313,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+Inhibition (%),CHEMBL3135390,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+Inhibition (%),CHEMBL3135796,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL919856,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL890008,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL3111172,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL1218228,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL3102103,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL914500,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL900179,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+Kd (nM),CHEMBL900179,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL3611609,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL863603,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL911331,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL732615,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL853936,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL3395903,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL898037,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL898029,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL899838,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL2423571,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL3578501,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL919857,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+Kd (nM),CHEMBL732617,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+Kd (nM),CHEMBL732616,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+Kd (nM),CHEMBL732619,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+Kd (nM),CHEMBL732618,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+Ki (nM),CHEMBL872286,B,Homo sapiens,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL732631,F,Unknown,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL701923,F,Unknown,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL701921,F,Unknown,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL807827,F,Unknown,Homo sapiens,CHEMBL2094115
+Inhibition (%),CHEMBL732895,B,Unknown,Homo sapiens,CHEMBL2094115
+Inhibition (%),CHEMBL754536,B,Unknown,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL732887,B,Unknown,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL732632,B,Unknown,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL732636,B,Unknown,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL732095,B,Unknown,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL653614,B,Unknown,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL734079,B,Unknown,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL732096,B,Unknown,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL860330,B,Unknown,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL910562,B,Unknown,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL842190,B,Unknown,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL873473,B,Unknown,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL732637,B,Unknown,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL732635,B,Unknown,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL732893,B,Unknown,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL908737,B,Unknown,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL732634,B,Unknown,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL732894,B,Unknown,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL732892,B,Unknown,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL732889,B,Unknown,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL732890,B,Unknown,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL732891,B,Unknown,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL732888,B,Unknown,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL734078,B,Unknown,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL734076,B,Unknown,Homo sapiens,CHEMBL2094115
+Kd (nM),CHEMBL732620,B,Unknown,Homo sapiens,CHEMBL2094115
+IC50 (nM),CHEMBL732091,B,Escherichia coli,Homo sapiens,CHEMBL2094115
+Inhibition (%),CHEMBL868680,F,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL863946,F,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL863945,F,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL859668,F,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL859670,F,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL862334,F,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL862333,F,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL868679,F,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1013126,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL733325,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL3135713,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL3135986,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1247609,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL2343189,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL2328425,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL3136479,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL3136373,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL2423377,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1247633,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL3136916,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL3136890,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL3137137,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL3135617,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL3136510,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL3136998,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL3135314,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL3135391,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL3135797,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1249674,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL3271247,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1249545,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1249569,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL3595483,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL2329071,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL2378432,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL2404187,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL2404188,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL3369114,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL811036,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL887025,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL2424324,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL3368570,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL2353793,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL2342696,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL3631180,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL2389820,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1217237,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL3630746,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL2329528,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL3385013,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL3384363,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL3361637,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1646645,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL830717,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL2429439,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL3090389,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL830639,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL733326,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL920489,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL2405966,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL3396508,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL911814,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL3413721,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL812937,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL2350707,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL2350683,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL861581,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL3100619,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL2166390,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL3090390,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL860118,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL812940,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL860230,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL2155534,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL984700,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL865778,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL812938,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1913341,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL858540,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL3368451,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL2343184,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL2399771,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL3376306,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL733327,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL812939,B,Homo sapiens,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL3364377,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL933319,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL987301,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3705477,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL933318,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2061259,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL910448,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1943083,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2422668,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1217288,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1776378,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL860117,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1058804,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL829582,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2317229,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL914443,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL832994,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2389974,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1804666,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL919883,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3222289,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL827996,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL829450,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3123036,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2155533,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3222415,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL874544,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3090383,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL830116,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1776380,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3090387,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2317228,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1067575,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2027257,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2027256,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3363742,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1249809,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3363471,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL859283,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3070436,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1114528,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2027259,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2027258,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL734077,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1073514,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3580221,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1051326,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL983811,B,Homo sapiens,Homo sapiens,CHEMBL260
+Ki (nM),CHEMBL983811,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2344114,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2439758,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL929902,B,Homo sapiens,Homo sapiens,CHEMBL260
+Ki (nM),CHEMBL929902,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3268789,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2091129,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1768524,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3269342,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3635885,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1051361,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1045463,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2432950,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1053415,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL868607,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL863917,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL853498,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1825474,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3705800,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1825475,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL880637,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2034461,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2034480,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3395778,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL887103,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL984550,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL984551,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL932042,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1063098,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1292159,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1103558,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1913342,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL911323,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1769102,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL867362,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2317232,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2317231,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3090388,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1013160,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3706342,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL734089,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3370278,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL934611,B,Homo sapiens,Homo sapiens,CHEMBL260
+Ki (nM),CHEMBL934611,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2405979,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1918093,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL880234,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3705568,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL904269,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL889782,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1174571,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1069380,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL833059,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1948783,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1948782,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1948784,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1102672,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL881763,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1811277,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL870979,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1787755,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1787754,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL945193,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL945196,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL832299,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL929947,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL862178,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2060772,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1050609,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2405974,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2071840,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1798599,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1798602,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3705609,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL881781,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3396502,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3396501,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3226859,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1827918,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL889566,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3363482,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3396507,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3396506,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1943084,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3224105,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2330085,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL881485,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3101957,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2353274,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3132601,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL860674,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3372842,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL908528,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3111173,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL3706164,B,Homo sapiens,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL3706164,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2351308,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL832993,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL896197,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL904798,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL833533,B,Homo sapiens,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2188505,B,Homo sapiens,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL734085,B,Homo sapiens,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL734088,B,Homo sapiens,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL1061091,B,Homo sapiens,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL2317230,B,Homo sapiens,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL1943082,B,Homo sapiens,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL860914,B,Homo sapiens,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL734087,B,Homo sapiens,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL734086,B,Homo sapiens,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL997164,B,Homo sapiens,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL2330178,B,Homo sapiens,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL853937,B,Homo sapiens,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL862346,B,Homo sapiens,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL2405969,B,Homo sapiens,Homo sapiens,CHEMBL260
+Ka (10'6/M/s),CHEMBL2405969,B,Homo sapiens,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL3396517,B,Homo sapiens,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL2429173,B,Homo sapiens,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL3369574,B,Homo sapiens,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL1942369,B,Homo sapiens,Homo sapiens,CHEMBL260
+Ki (nM),CHEMBL987298,B,Homo sapiens,Homo sapiens,CHEMBL260
+Ki (nM),CHEMBL987299,B,Homo sapiens,Homo sapiens,CHEMBL260
+Ki (nM),CHEMBL983837,B,Homo sapiens,Homo sapiens,CHEMBL260
+Ki (nM),CHEMBL1103663,B,Homo sapiens,Homo sapiens,CHEMBL260
+Ki (nM),CHEMBL3396515,B,Homo sapiens,Homo sapiens,CHEMBL260
+Ki (nM),CHEMBL1035784,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1063767,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1062824,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL2349782,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL2350832,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL2352809,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL3130704,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL983551,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL3240782,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL853552,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1037977,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1060211,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1052110,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL3269301,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL3292197,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL862835,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL3225777,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL922169,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL3100785,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1042477,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1074891,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL2212375,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL3630849,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL975468,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL3382224,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL2434381,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL3428741,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL873762,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL2046223,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL812936,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL2339293,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL3367703,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1174582,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1063766,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1948786,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1060212,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL854498,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL2434033,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL3379507,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1062770,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL3396516,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL2434209,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL997186,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL2317225,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1054695,B,Homo sapiens,Homo sapiens,CHEMBL260
+Selectivity (),CHEMBL1051357,B,Homo sapiens,Homo sapiens,CHEMBL260
+Residual Activity (%),CHEMBL2219172,B,Homo sapiens,Homo sapiens,CHEMBL260
+Residual Activity (%),CHEMBL2219171,B,Homo sapiens,Homo sapiens,CHEMBL260
+Ratio IC50 (),CHEMBL1776379,B,Homo sapiens,Homo sapiens,CHEMBL260
+Ratio IC50 (),CHEMBL1776381,B,Homo sapiens,Homo sapiens,CHEMBL260
+Ratio IC50 (),CHEMBL3222290,B,Homo sapiens,Homo sapiens,CHEMBL260
+Ratio IC50 (),CHEMBL3396503,B,Homo sapiens,Homo sapiens,CHEMBL260
+Ratio IC50 (),CHEMBL3101956,B,Homo sapiens,Homo sapiens,CHEMBL260
+Activity (uM),CHEMBL3395580,B,Homo sapiens,Homo sapiens,CHEMBL260
+Ratio (),CHEMBL3396518,B,Homo sapiens,Homo sapiens,CHEMBL260
+Vmax (),CHEMBL1024843,B,Homo sapiens,Homo sapiens,CHEMBL260
+Vmax (),CHEMBL1024841,B,Homo sapiens,Homo sapiens,CHEMBL260
+Vmax (),CHEMBL1024842,B,Homo sapiens,Homo sapiens,CHEMBL260
+Vmax (),CHEMBL1024840,B,Homo sapiens,Homo sapiens,CHEMBL260
+Km (nM),CHEMBL1024847,B,Homo sapiens,Homo sapiens,CHEMBL260
+Km (nM),CHEMBL1024844,B,Homo sapiens,Homo sapiens,CHEMBL260
+Km (nM),CHEMBL1024846,B,Homo sapiens,Homo sapiens,CHEMBL260
+Km (nM),CHEMBL1024845,B,Homo sapiens,Homo sapiens,CHEMBL260
+Ki (nM),CHEMBL1964117,F,Unknown,Homo sapiens,CHEMBL260
+ED50 (mg.kg-1),CHEMBL736654,F,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1962058,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1962059,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL731496,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1819997,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1252482,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1174951,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1929915,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1244211,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1919404,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1012706,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL953374,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1066076,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1116737,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1120368,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1685869,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1686085,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL2015413,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1935876,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1219770,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1102126,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL2157310,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL2157246,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL941447,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1285599,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1044495,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1246563,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1006317,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1019625,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1815738,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1174000,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL973477,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1921555,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1045456,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL732964,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1781144,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1100952,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL924742,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL830662,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL732965,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL731908,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1259897,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL2155147,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL731493,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL952123,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL935077,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL731492,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL996938,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1961067,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1113462,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1274109,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1777662,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL2184767,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL939462,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1107088,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL2155149,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL948225,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1776536,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1663970,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1040074,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1768227,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1768212,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL926122,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1069051,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL2155532,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1646932,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1646788,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL928265,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1118056,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL935073,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL935075,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL1054882,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL952124,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL2044305,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL935074,B,Unknown,Homo sapiens,CHEMBL260
+Inhibition (%),CHEMBL934578,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL732094,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1211568,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1050681,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1931519,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1050682,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1211566,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL732624,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL735049,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1013888,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL732625,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL874040,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1114551,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2027477,B,Unknown,Homo sapiens,CHEMBL260
+Ki (nM),CHEMBL2027477,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL731497,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL731498,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1101788,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1177017,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1022155,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1045448,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL732963,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL924741,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2184768,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL731494,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2155531,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL734272,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2027255,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL735050,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL939357,B,Unknown,Homo sapiens,CHEMBL260
+Ki (nM),CHEMBL939357,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL735052,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1919766,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL842192,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL952122,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL734090,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1954391,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL969396,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1107087,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1012732,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL842195,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL882931,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1073513,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL946387,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1785239,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL732623,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL734081,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL946927,B,Unknown,Homo sapiens,CHEMBL260
+Ki (nM),CHEMBL946927,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL998555,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2154709,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2032483,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1648829,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1285877,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1044493,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL928788,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2034460,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL887083,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1274708,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1274709,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1107046,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1251166,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1273209,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1251348,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1071905,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL926123,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL972711,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL731491,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1932272,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1067804,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1030215,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1114820,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2046097,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL935076,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL935072,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1259851,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1108475,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1211972,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1211971,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1249644,B,Unknown,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL1249644,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1798818,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL944993,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1174572,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL951934,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1952894,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1958782,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL731495,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2185574,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1108472,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL946775,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL945194,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL945195,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL862332,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1947749,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1110043,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1103397,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL980900,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1664298,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1040072,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL933483,B,Unknown,Homo sapiens,CHEMBL260
+Ki (nM),CHEMBL933483,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1274707,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1047419,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1099700,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1798415,B,Unknown,Homo sapiens,CHEMBL260
+Ki (nM),CHEMBL1798415,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1067549,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1918088,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1820099,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1211154,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL881761,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1775260,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1781010,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1024853,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL921080,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1805307,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1218393,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL934189,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1815752,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL985887,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL948990,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2210706,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2155146,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL754534,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL896523,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1693595,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1948797,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL973639,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL2155148,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL985078,B,Unknown,Homo sapiens,CHEMBL260
+EC50 (nM),CHEMBL985078,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL959253,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL984139,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1067362,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1116671,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1274489,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1166746,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL967081,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1107904,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL877307,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL735051,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1247963,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1104647,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL947771,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1011432,B,Unknown,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL1944479,B,Unknown,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL1227388,B,Unknown,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL984137,B,Unknown,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL1261723,B,Unknown,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL1908411,B,Unknown,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL733328,B,Unknown,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL1220468,B,Unknown,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL1050680,B,Unknown,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL1244545,B,Unknown,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL990555,B,Unknown,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL1769104,B,Unknown,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL1111805,B,Unknown,Homo sapiens,CHEMBL260
+Ki (nM),CHEMBL1111805,B,Unknown,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL1781129,B,Unknown,Homo sapiens,CHEMBL260
+Kd (nM),CHEMBL1103668,B,Unknown,Homo sapiens,CHEMBL260
+EC50 (nM),CHEMBL1218395,B,Unknown,Homo sapiens,CHEMBL260
+Ki (nM),CHEMBL1250003,B,Unknown,Homo sapiens,CHEMBL260
+Ki (nM),CHEMBL1261656,B,Unknown,Homo sapiens,CHEMBL260
+Ki (nM),CHEMBL997720,B,Unknown,Homo sapiens,CHEMBL260
+Ki (nM),CHEMBL1787752,B,Unknown,Homo sapiens,CHEMBL260
+Ki (nM),CHEMBL1786932,B,Unknown,Homo sapiens,CHEMBL260
+Ki (nM),CHEMBL1063580,B,Unknown,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1063691,B,Unknown,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL2209891,B,Unknown,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL2215423,B,Unknown,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL2213454,B,Unknown,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1948956,B,Unknown,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL2016305,B,Unknown,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL2015173,B,Unknown,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1048300,B,Unknown,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1827271,B,Unknown,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1929686,B,Unknown,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1932621,B,Unknown,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1932622,B,Unknown,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1108070,B,Unknown,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL945007,B,Unknown,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1047332,B,Unknown,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL963233,B,Unknown,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1048074,B,Unknown,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1047252,B,Unknown,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1958781,B,Unknown,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1648530,B,Unknown,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1057670,B,Unknown,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL2185157,B,Unknown,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1932540,B,Unknown,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1932541,B,Unknown,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1806004,B,Unknown,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1046785,B,Unknown,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL1825898,B,Unknown,Homo sapiens,CHEMBL260
+Activity (%),CHEMBL2157035,B,Unknown,Homo sapiens,CHEMBL260
+k_off (s-1),CHEMBL733329,B,Unknown,Homo sapiens,CHEMBL260
+Tm (degrees C),CHEMBL984132,B,Unknown,Homo sapiens,CHEMBL260
+T1/2 (hr),CHEMBL1942510,B,Unknown,Homo sapiens,CHEMBL260
+T1/2 (hr),CHEMBL984138,B,Unknown,Homo sapiens,CHEMBL260
+T1/2 (hr),CHEMBL1220611,B,Unknown,Homo sapiens,CHEMBL260
+k_on (M-1.s-1),CHEMBL733330,B,Unknown,Homo sapiens,CHEMBL260
+Residual Activity (%),CHEMBL1069805,B,Unknown,Homo sapiens,CHEMBL260
+Residual Activity (%),CHEMBL1041163,B,Unknown,Homo sapiens,CHEMBL260
+Residual Activity (%),CHEMBL1050316,B,Unknown,Homo sapiens,CHEMBL260
+Residual Activity (%),CHEMBL1000623,B,Unknown,Homo sapiens,CHEMBL260
+Ratio IC50 (),CHEMBL2185573,B,Unknown,Homo sapiens,CHEMBL260
+Delta Tm (degrees C),CHEMBL1274711,B,Unknown,Homo sapiens,CHEMBL260
+Delta Tm (degrees C),CHEMBL1274710,B,Unknown,Homo sapiens,CHEMBL260
+Activity (uM),CHEMBL1101787,B,Unknown,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL1909201,B,Escherichia coli,Homo sapiens,CHEMBL260
+IC50 (nM),CHEMBL679499,F,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3134956,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3135098,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3136728,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3136727,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3134909,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3134910,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3135158,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3135157,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3135912,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3135913,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3135754,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3135753,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3136109,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3136110,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3136499,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3136500,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3137067,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3137066,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3136310,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3136309,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3136274,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3136275,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3136642,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3136191,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3137148,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3137147,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2438981,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3420605,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3594757,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2214348,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1249715,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3270873,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3420461,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2427145,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2427787,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2427144,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2427142,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2427143,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3267567,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3595199,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3595393,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2329194,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2345081,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL679502,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1918892,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1919007,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2378447,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3380557,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3380556,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3362111,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2405121,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2405122,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3368002,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL869535,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL886968,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2422071,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2422070,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3368341,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2353802,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3112009,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2342684,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2350761,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3380440,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3379623,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3626282,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3626289,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL980860,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1119359,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3362262,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3631828,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3226046,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2389835,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1217214,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3390078,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3630502,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3379058,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2317002,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1101923,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2329544,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2352280,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1067994,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3419839,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3382485,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3384999,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3296777,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3602854,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1044511,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3619999,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3376326,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3361647,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3384772,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1645971,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2073071,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2066303,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL920440,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3595189,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3240326,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2344828,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2344827,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2390018,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1244697,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3242592,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1244698,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3705075,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3420606,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL854264,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2213410,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3615646,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3117357,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL957979,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3118220,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3705970,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3090734,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1787707,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2214347,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL897762,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3385422,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3385423,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2422669,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL868169,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3708010,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3294392,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1261354,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1261356,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1018050,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1244095,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2344158,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3706339,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3385424,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3385826,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3361927,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3361932,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1670772,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2439292,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL871628,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1245048,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1245046,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3223958,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3595706,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3595708,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3595707,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3595512,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3362110,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3603310,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3111864,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2161442,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3380434,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3707703,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2327346,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL854266,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2183762,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3364611,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1959131,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3363337,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3363369,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL882598,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3385130,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3594719,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3419625,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3707574,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1958984,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Ki (nM),CHEMBL1958984,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2016113,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2342404,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3225225,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3583127,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2434167,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL881789,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL903889,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2319490,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2339407,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2339008,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2339406,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3375415,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2050053,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3268722,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2437779,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1115348,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3707847,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1804192,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL814633,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL873743,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3367408,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL914196,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3225231,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL943613,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3707864,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3379624,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2410114,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3625812,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL868730,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2439143,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2439142,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3225229,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3225228,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3380459,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2406339,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2406313,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3631840,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2067592,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2389794,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2073510,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2066309,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3293744,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3270964,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3382755,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2390319,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2064931,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2421428,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3379059,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3371135,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL911845,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1776846,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1785587,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1785332,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3363649,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3381425,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1663329,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3387490,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL865224,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL3117951,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1937084,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL860797,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL1061073,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL1061898,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL1060194,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL1050826,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL1063729,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL2344825,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL2213419,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL3242601,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL3242603,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL3242604,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL3242602,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL3242600,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL3242599,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL1787162,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL2438983,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL2176254,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL988958,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL3707695,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL2319225,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL3705058,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL3430296,B,Homo sapiens,Homo sapiens,CHEMBL1974
+EC50 (nM),CHEMBL1919429,B,Homo sapiens,Homo sapiens,CHEMBL1974
+EC50 (nM),CHEMBL3270317,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Ki (nM),CHEMBL873734,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Ki (nM),CHEMBL1840408,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Ki (nM),CHEMBL3405277,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Ki (nM),CHEMBL917082,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL2350020,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL2352191,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL3386808,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL3386811,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL3386810,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL3386809,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL3386807,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL3386812,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL2352249,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL2352900,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL2352899,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL2352250,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL3132500,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL1035896,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL3242357,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL3380497,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL855317,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL1037151,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL1787138,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL1787536,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL1786923,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL1786924,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL1787139,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL1769225,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL3366572,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL3366571,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL3602070,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL3294394,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL3294393,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL2175675,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL3269292,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL3292182,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL3625495,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL1769039,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL969677,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL862475,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL3223955,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL921858,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL3100330,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL3101766,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL3102531,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL1047845,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL3603230,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL1074869,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL2212862,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL3630659,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Selectivity (),CHEMBL1051266,B,Homo sapiens,Homo sapiens,CHEMBL1974
+T1/2 (hr),CHEMBL3387272,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Residual Activity (%),CHEMBL2219079,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Residual Activity (%),CHEMBL2219078,B,Homo sapiens,Homo sapiens,CHEMBL1974
+Ratio IC50 (),CHEMBL2438980,B,Homo sapiens,Homo sapiens,CHEMBL1974
+GI50 (nM),CHEMBL3595195,B,Homo sapiens,Homo sapiens,CHEMBL1974
+GI50 (nM),CHEMBL3595192,B,Homo sapiens,Homo sapiens,CHEMBL1974
+GI50 (nM),CHEMBL3595193,B,Homo sapiens,Homo sapiens,CHEMBL1974
+GI50 (nM),CHEMBL3595196,B,Homo sapiens,Homo sapiens,CHEMBL1974
+GI50 (nM),CHEMBL3595509,B,Homo sapiens,Homo sapiens,CHEMBL1974
+GI50 (nM),CHEMBL3595508,B,Homo sapiens,Homo sapiens,CHEMBL1974
+GI50 (nM),CHEMBL3595511,B,Homo sapiens,Homo sapiens,CHEMBL1974
+GI50 (nM),CHEMBL3595507,B,Homo sapiens,Homo sapiens,CHEMBL1974
+GI50 (nM),CHEMBL3595510,B,Homo sapiens,Homo sapiens,CHEMBL1974
+GI50 (nM),CHEMBL3420611,B,Homo sapiens,Homo sapiens,CHEMBL1974
+GI50 (nM),CHEMBL3420612,B,Homo sapiens,Homo sapiens,CHEMBL1974
+GI50 (nM),CHEMBL3420608,B,Homo sapiens,Homo sapiens,CHEMBL1974
+GI50 (nM),CHEMBL3420610,B,Homo sapiens,Homo sapiens,CHEMBL1974
+GI50 (nM),CHEMBL3420609,B,Homo sapiens,Homo sapiens,CHEMBL1974
+K (/min),CHEMBL3387271,B,Homo sapiens,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL871305,F,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL871306,F,Unknown,Homo sapiens,CHEMBL1974
+Ki (nM),CHEMBL1963779,F,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1074372,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1962302,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1962300,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1962301,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1962099,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1176713,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1252424,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1169238,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL770281,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL901553,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1174428,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1930190,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1244436,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL925569,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2174416,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2089990,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1919264,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1012687,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1810164,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1112885,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1920327,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL953368,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1648800,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1260882,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1070696,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1936985,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1108405,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1052146,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1686781,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1959608,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1827044,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2037936,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1825705,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1050672,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1120339,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1120340,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1685922,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1685673,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1687337,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2014430,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL924791,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1935890,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1047356,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1798257,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1219765,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1781091,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1763018,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1166186,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2156640,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL941436,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2051515,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2091530,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2039239,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1285586,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2092258,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1944022,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1291204,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL2020365,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1649038,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1168268,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1246555,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1006310,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1019615,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL954376,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL970591,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1787672,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL929859,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL1921432,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1954565,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1249726,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1810165,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1919426,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1942933,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1947379,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL981407,B,Unknown,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL981407,B,Unknown,Homo sapiens,CHEMBL1974
+Ki (nM),CHEMBL981407,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL679498,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2183650,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1071420,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1176709,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1959136,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1261358,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1111472,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL972542,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1941739,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1921578,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2026428,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL766072,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL974020,B,Unknown,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL974020,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1005542,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1006349,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL957099,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1106056,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1948347,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2020771,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1109428,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL939363,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1272382,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL928169,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2183780,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1003890,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL930126,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2161436,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2040121,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL906393,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1272701,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL939483,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2034188,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL949291,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1009913,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL943606,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1656204,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL948367,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2185927,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL970787,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1120758,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2212849,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2184775,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL927244,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2038835,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL951199,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL677135,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1937385,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1009187,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1066401,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1912528,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2154703,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1246570,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2089889,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1120372,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL951153,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL985574,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1073282,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1776507,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL2149981,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL903337,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1292407,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1166187,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1686636,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL679497,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1065599,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1936502,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (nM),CHEMBL1839931,B,Unknown,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL1908634,B,Unknown,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL1908631,B,Unknown,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL1908636,B,Unknown,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL1908635,B,Unknown,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL1908632,B,Unknown,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL1908633,B,Unknown,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL1244696,B,Unknown,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL1908637,B,Unknown,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL1056849,B,Unknown,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL1244845,B,Unknown,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL2015890,B,Unknown,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL1274456,B,Unknown,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL2214092,B,Unknown,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL1112284,B,Unknown,Homo sapiens,CHEMBL1974
+Kd (nM),CHEMBL1764214,B,Unknown,Homo sapiens,CHEMBL1974
+EC50 (nM),CHEMBL974021,B,Unknown,Homo sapiens,CHEMBL1974
+Ki (nM),CHEMBL1120001,B,Unknown,Homo sapiens,CHEMBL1974
+Ki (nM),CHEMBL1781289,B,Unknown,Homo sapiens,CHEMBL1974
+Ki (nM),CHEMBL1025769,B,Unknown,Homo sapiens,CHEMBL1974
+Ki (nM),CHEMBL1768450,B,Unknown,Homo sapiens,CHEMBL1974
+Ki (nM),CHEMBL1039924,B,Unknown,Homo sapiens,CHEMBL1974
+Ki (nM),CHEMBL1038669,B,Unknown,Homo sapiens,CHEMBL1974
+Ki (nM),CHEMBL1768908,B,Unknown,Homo sapiens,CHEMBL1974
+Ki (nM),CHEMBL1102104,B,Unknown,Homo sapiens,CHEMBL1974
+Ki (nM),CHEMBL1022931,B,Unknown,Homo sapiens,CHEMBL1974
+Ki (nM),CHEMBL1063586,B,Unknown,Homo sapiens,CHEMBL1974
+Ki (nM),CHEMBL2210917,B,Unknown,Homo sapiens,CHEMBL1974
+Ki (nM),CHEMBL2049854,B,Unknown,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL2015889,B,Unknown,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL1168111,B,Unknown,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL1168110,B,Unknown,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL2183642,B,Unknown,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL1063787,B,Unknown,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL2213539,B,Unknown,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL2213545,B,Unknown,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL1948827,B,Unknown,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL961271,B,Unknown,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL1832344,B,Unknown,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL1053734,B,Unknown,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL980936,B,Unknown,Homo sapiens,CHEMBL1974
+Activity (%),CHEMBL1826958,B,Unknown,Homo sapiens,CHEMBL1974
+Residual Activity (%),CHEMBL1045134,B,Unknown,Homo sapiens,CHEMBL1974
+Residual Activity (%),CHEMBL1040644,B,Unknown,Homo sapiens,CHEMBL1974
+Residual Activity (%),CHEMBL1037591,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (ug.mL-1),CHEMBL962874,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (ug.mL-1),CHEMBL1026234,B,Unknown,Homo sapiens,CHEMBL1974
+IC50 (ug.mL-1),CHEMBL965370,B,Unknown,Homo sapiens,CHEMBL1974
+Inhibition (%),CHEMBL3134944,B,Homo sapiens,Homo sapiens,CHEMBL6186
+Inhibition (%),CHEMBL3136715,B,Homo sapiens,Homo sapiens,CHEMBL6186
+Inhibition (%),CHEMBL3134719,B,Homo sapiens,Homo sapiens,CHEMBL6186
+Inhibition (%),CHEMBL3135145,B,Homo sapiens,Homo sapiens,CHEMBL6186
+Inhibition (%),CHEMBL3135238,B,Homo sapiens,Homo sapiens,CHEMBL6186
+Inhibition (%),CHEMBL3135210,B,Homo sapiens,Homo sapiens,CHEMBL6186
+Inhibition (%),CHEMBL3135466,B,Homo sapiens,Homo sapiens,CHEMBL6186
+Inhibition (%),CHEMBL3136364,B,Homo sapiens,Homo sapiens,CHEMBL6186
+Inhibition (%),CHEMBL3136903,B,Homo sapiens,Homo sapiens,CHEMBL6186
+Inhibition (%),CHEMBL3136297,B,Homo sapiens,Homo sapiens,CHEMBL6186
+Inhibition (%),CHEMBL3136140,B,Homo sapiens,Homo sapiens,CHEMBL6186
+Inhibition (%),CHEMBL3136179,B,Homo sapiens,Homo sapiens,CHEMBL6186
+Inhibition (%),CHEMBL3136533,B,Homo sapiens,Homo sapiens,CHEMBL6186
+Inhibition (%),CHEMBL3595504,B,Homo sapiens,Homo sapiens,CHEMBL6186
+Inhibition (%),CHEMBL2405678,B,Homo sapiens,Homo sapiens,CHEMBL6186
+Inhibition (%),CHEMBL2422286,B,Homo sapiens,Homo sapiens,CHEMBL6186
+Inhibition (%),CHEMBL3631469,B,Homo sapiens,Homo sapiens,CHEMBL6186
+Inhibition (%),CHEMBL1646653,B,Homo sapiens,Homo sapiens,CHEMBL6186
+IC50 (nM),CHEMBL3375446,B,Homo sapiens,Homo sapiens,CHEMBL6186
+Activity (%),CHEMBL2352154,B,Homo sapiens,Homo sapiens,CHEMBL6186
+Activity (%),CHEMBL3373416,B,Homo sapiens,Homo sapiens,CHEMBL6186
+Activity (%),CHEMBL2351114,B,Homo sapiens,Homo sapiens,CHEMBL6186
+Activity (%),CHEMBL2352835,B,Homo sapiens,Homo sapiens,CHEMBL6186
+Activity (%),CHEMBL3241846,B,Homo sapiens,Homo sapiens,CHEMBL6186
+Activity (%),CHEMBL922176,B,Homo sapiens,Homo sapiens,CHEMBL6186
+Activity (%),CHEMBL3100779,B,Homo sapiens,Homo sapiens,CHEMBL6186
+Residual Activity (%),CHEMBL2219183,B,Homo sapiens,Homo sapiens,CHEMBL6186
+Residual Activity (%),CHEMBL2219184,B,Homo sapiens,Homo sapiens,CHEMBL6186
+Inhibition (%),CHEMBL1961941,B,Unknown,Homo sapiens,CHEMBL6186
+Inhibition (%),CHEMBL1961940,B,Unknown,Homo sapiens,CHEMBL6186
+Inhibition (%),CHEMBL1251690,B,Unknown,Homo sapiens,CHEMBL6186
+Inhibition (%),CHEMBL1175336,B,Unknown,Homo sapiens,CHEMBL6186
+Inhibition (%),CHEMBL1244290,B,Unknown,Homo sapiens,CHEMBL6186
+Inhibition (%),CHEMBL1103238,B,Unknown,Homo sapiens,CHEMBL6186
+Inhibition (%),CHEMBL1036951,B,Unknown,Homo sapiens,CHEMBL6186
+Inhibition (%),CHEMBL2015515,B,Unknown,Homo sapiens,CHEMBL6186
+Inhibition (%),CHEMBL2157701,B,Unknown,Homo sapiens,CHEMBL6186
+Inhibition (%),CHEMBL2089641,B,Unknown,Homo sapiens,CHEMBL6186
+Inhibition (%),CHEMBL1049995,B,Unknown,Homo sapiens,CHEMBL6186
+Kd (nM),CHEMBL1908770,B,Unknown,Homo sapiens,CHEMBL6186
+Activity (%),CHEMBL2209700,B,Unknown,Homo sapiens,CHEMBL6186
+Residual Activity (%),CHEMBL1071373,B,Unknown,Homo sapiens,CHEMBL6186
+Residual Activity (%),CHEMBL1072520,B,Unknown,Homo sapiens,CHEMBL6186
+Residual Activity (%),CHEMBL1043813,B,Unknown,Homo sapiens,CHEMBL6186
+Inhibition (%),CHEMBL2429016,B,Homo sapiens,Homo sapiens,CHEMBL4897
+Inhibition (%),CHEMBL2345065,B,Homo sapiens,Homo sapiens,CHEMBL4897
+Inhibition (%),CHEMBL1919419,B,Homo sapiens,Homo sapiens,CHEMBL4897
+Inhibition (%),CHEMBL2406519,B,Homo sapiens,Homo sapiens,CHEMBL4897
+Inhibition (%),CHEMBL2351853,B,Homo sapiens,Homo sapiens,CHEMBL4897
+Inhibition (%),CHEMBL2350478,B,Homo sapiens,Homo sapiens,CHEMBL4897
+Inhibition (%),CHEMBL3630947,B,Homo sapiens,Homo sapiens,CHEMBL4897
+Inhibition (%),CHEMBL2350785,B,Homo sapiens,Homo sapiens,CHEMBL4897
+Inhibition (%),CHEMBL1648692,B,Homo sapiens,Homo sapiens,CHEMBL4897
+Inhibition (%),CHEMBL2065128,B,Homo sapiens,Homo sapiens,CHEMBL4897
+IC50 (nM),CHEMBL960987,B,Homo sapiens,Homo sapiens,CHEMBL4897
+IC50 (nM),CHEMBL3630033,B,Homo sapiens,Homo sapiens,CHEMBL4897
+IC50 (nM),CHEMBL995298,B,Homo sapiens,Homo sapiens,CHEMBL4897
+IC50 (nM),CHEMBL991584,B,Homo sapiens,Homo sapiens,CHEMBL4897
+IC50 (nM),CHEMBL2406144,B,Homo sapiens,Homo sapiens,CHEMBL4897
+IC50 (nM),CHEMBL2410315,B,Homo sapiens,Homo sapiens,CHEMBL4897
+IC50 (nM),CHEMBL920676,B,Homo sapiens,Homo sapiens,CHEMBL4897
+IC50 (nM),CHEMBL920675,B,Homo sapiens,Homo sapiens,CHEMBL4897
+IC50 (nM),CHEMBL920658,B,Homo sapiens,Homo sapiens,CHEMBL4897
+IC50 (nM),CHEMBL920674,B,Homo sapiens,Homo sapiens,CHEMBL4897
+IC50 (nM),CHEMBL920672,B,Homo sapiens,Homo sapiens,CHEMBL4897
+IC50 (nM),CHEMBL920673,B,Homo sapiens,Homo sapiens,CHEMBL4897
+IC50 (nM),CHEMBL920671,B,Homo sapiens,Homo sapiens,CHEMBL4897
+IC50 (nM),CHEMBL3707705,B,Homo sapiens,Homo sapiens,CHEMBL4897
+Kd (nM),CHEMBL1061092,B,Homo sapiens,Homo sapiens,CHEMBL4897
+Ki (nM),CHEMBL915364,B,Homo sapiens,Homo sapiens,CHEMBL4897
+Activity (%),CHEMBL2352426,B,Homo sapiens,Homo sapiens,CHEMBL4897
+Activity (%),CHEMBL2349886,B,Homo sapiens,Homo sapiens,CHEMBL4897
+Activity (%),CHEMBL2351130,B,Homo sapiens,Homo sapiens,CHEMBL4897
+Activity (%),CHEMBL3241831,B,Homo sapiens,Homo sapiens,CHEMBL4897
+Activity (%),CHEMBL1050467,B,Homo sapiens,Homo sapiens,CHEMBL4897
+Activity (%),CHEMBL982764,B,Homo sapiens,Homo sapiens,CHEMBL4897
+Activity (%),CHEMBL922151,B,Homo sapiens,Homo sapiens,CHEMBL4897
+Activity (%),CHEMBL3100931,B,Homo sapiens,Homo sapiens,CHEMBL4897
+Activity (%),CHEMBL1042494,B,Homo sapiens,Homo sapiens,CHEMBL4897
+Activity (%),CHEMBL1043371,B,Homo sapiens,Homo sapiens,CHEMBL4897
+Activity (%),CHEMBL3631574,B,Homo sapiens,Homo sapiens,CHEMBL4897
+Residual Activity (%),CHEMBL2219143,B,Homo sapiens,Homo sapiens,CHEMBL4897
+Residual Activity (%),CHEMBL2219144,B,Homo sapiens,Homo sapiens,CHEMBL4897
+Ki (nM),CHEMBL1963697,F,Unknown,Homo sapiens,CHEMBL4897
+Inhibition (%),CHEMBL1252623,B,Unknown,Homo sapiens,CHEMBL4897
+Inhibition (%),CHEMBL1175228,B,Unknown,Homo sapiens,CHEMBL4897
+Inhibition (%),CHEMBL1244254,B,Unknown,Homo sapiens,CHEMBL4897
+Inhibition (%),CHEMBL1176627,B,Unknown,Homo sapiens,CHEMBL4897
+Inhibition (%),CHEMBL1648814,B,Unknown,Homo sapiens,CHEMBL4897
+Inhibition (%),CHEMBL1066093,B,Unknown,Homo sapiens,CHEMBL4897
+Inhibition (%),CHEMBL1103225,B,Unknown,Homo sapiens,CHEMBL4897
+Inhibition (%),CHEMBL1686795,B,Unknown,Homo sapiens,CHEMBL4897
+Inhibition (%),CHEMBL1825785,B,Unknown,Homo sapiens,CHEMBL4897
+Inhibition (%),CHEMBL1685862,B,Unknown,Homo sapiens,CHEMBL4897
+Inhibition (%),CHEMBL1686078,B,Unknown,Homo sapiens,CHEMBL4897
+Inhibition (%),CHEMBL2015502,B,Unknown,Homo sapiens,CHEMBL4897
+Inhibition (%),CHEMBL2157440,B,Unknown,Homo sapiens,CHEMBL4897
+Inhibition (%),CHEMBL1291217,B,Unknown,Homo sapiens,CHEMBL4897
+Inhibition (%),CHEMBL973494,B,Unknown,Homo sapiens,CHEMBL4897
+Inhibition (%),CHEMBL1786865,B,Unknown,Homo sapiens,CHEMBL4897
+Inhibition (%),CHEMBL995300,B,Unknown,Homo sapiens,CHEMBL4897
+IC50 (nM),CHEMBL1948344,B,Unknown,Homo sapiens,CHEMBL4897
+IC50 (nM),CHEMBL941564,B,Unknown,Homo sapiens,CHEMBL4897
+IC50 (nM),CHEMBL995295,B,Unknown,Homo sapiens,CHEMBL4897
+IC50 (nM),CHEMBL995297,B,Unknown,Homo sapiens,CHEMBL4897
+IC50 (nM),CHEMBL942192,B,Unknown,Homo sapiens,CHEMBL4897
+IC50 (nM),CHEMBL1272696,B,Unknown,Homo sapiens,CHEMBL4897
+IC50 (nM),CHEMBL1777513,B,Unknown,Homo sapiens,CHEMBL4897
+IC50 (nM),CHEMBL1212571,B,Unknown,Homo sapiens,CHEMBL4897
+IC50 (nM),CHEMBL1109143,B,Unknown,Homo sapiens,CHEMBL4897
+IC50 (nM),CHEMBL936778,B,Unknown,Homo sapiens,CHEMBL4897
+IC50 (nM),CHEMBL1059129,B,Unknown,Homo sapiens,CHEMBL4897
+IC50 (nM),CHEMBL1805363,B,Unknown,Homo sapiens,CHEMBL4897
+Kd (nM),CHEMBL1908630,B,Unknown,Homo sapiens,CHEMBL4897
+Kd (nM),CHEMBL1244934,B,Unknown,Homo sapiens,CHEMBL4897
+Kd (nM),CHEMBL1101133,B,Unknown,Homo sapiens,CHEMBL4897
+Ki (nM),CHEMBL2210938,B,Unknown,Homo sapiens,CHEMBL4897
+Ki (nM),CHEMBL942714,B,Unknown,Homo sapiens,CHEMBL4897
+Activity (%),CHEMBL2212485,B,Unknown,Homo sapiens,CHEMBL4897
+Activity (%),CHEMBL1949059,B,Unknown,Homo sapiens,CHEMBL4897
+Activity (%),CHEMBL1057602,B,Unknown,Homo sapiens,CHEMBL4897
+Activity (%),CHEMBL1826951,B,Unknown,Homo sapiens,CHEMBL4897
+Activity (%),CHEMBL970785,B,Unknown,Homo sapiens,CHEMBL4897
+Activity (%),CHEMBL2157420,B,Unknown,Homo sapiens,CHEMBL4897
+Residual Activity (%),CHEMBL1072494,B,Unknown,Homo sapiens,CHEMBL4897
+Residual Activity (%),CHEMBL1042971,B,Unknown,Homo sapiens,CHEMBL4897
+Residual Activity (%),CHEMBL1038803,B,Unknown,Homo sapiens,CHEMBL4897
+Inhibition (%),CHEMBL2428942,B,Homo sapiens,Homo sapiens,CHEMBL1649052
+Inhibition (%),CHEMBL3225876,B,Homo sapiens,Homo sapiens,CHEMBL1649052
+Inhibition (%),CHEMBL3227325,B,Homo sapiens,Homo sapiens,CHEMBL1649052
+Inhibition (%),CHEMBL3225878,B,Homo sapiens,Homo sapiens,CHEMBL1649052
+IC50 (nM),CHEMBL1647668,B,Homo sapiens,Homo sapiens,CHEMBL1649052
+Kd (nM),CHEMBL2428936,B,Homo sapiens,Homo sapiens,CHEMBL1649052
+Kd (nM),CHEMBL2428939,B,Homo sapiens,Homo sapiens,CHEMBL1649052
+Kd (nM),CHEMBL2428937,B,Homo sapiens,Homo sapiens,CHEMBL1649052
+Kd (nM),CHEMBL2428938,B,Homo sapiens,Homo sapiens,CHEMBL1649052
+Ki (nM),CHEMBL2428943,B,Homo sapiens,Homo sapiens,CHEMBL1649052
+Ratio (),CHEMBL2428941,B,Homo sapiens,Homo sapiens,CHEMBL1649052
+Time (min),CHEMBL2428940,B,Homo sapiens,Homo sapiens,CHEMBL1649052
+Kd (nM),CHEMBL3267262,B,Homo sapiens,Homo sapiens,CHEMBL1887
+FC (),CHEMBL3124367,B,Homo sapiens,Homo sapiens,CHEMBL3120039
+FC (),CHEMBL3124366,B,Homo sapiens,Homo sapiens,CHEMBL3120039
+IC50 (nM),CHEMBL1272914,B,Unknown,Homo sapiens,CHEMBL1275217
+IC50 (nM),CHEMBL3631862,F,Mus musculus,Mus musculus,CHEMBL3596084
+IC50 (nM),CHEMBL3630137,F,Mus musculus,Mus musculus,CHEMBL3596084
+Inhibition (%),CHEMBL3599997,B,Mus musculus,Mus musculus,CHEMBL3596084
+IC50 (nM),CHEMBL3599999,B,Mus musculus,Mus musculus,CHEMBL3596084
+FC (),CHEMBL3600207,B,Mus musculus,Mus musculus,CHEMBL3596084
+FC (),CHEMBL3600206,B,Mus musculus,Mus musculus,CHEMBL3596084
+IC50 (nM),CHEMBL3225224,B,Mus musculus,Mus musculus,CHEMBL2034796
+IC50 (nM),CHEMBL2038873,B,Mus musculus,Mus musculus,CHEMBL2034796
+FC (),CHEMBL2184256,B,Mus musculus,Mus musculus,CHEMBL2176788
